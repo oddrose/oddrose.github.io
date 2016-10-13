@@ -1,0 +1,108 @@
+<html>
+
+	<head>
+		<title>Fredrik D. Johansson - PhD thesis</title>
+		<style>
+		body {
+			font-family: "Helvetica Neue",Helvetica,verdana, arial;
+			font-size: 15px;
+			line-height: 140%;
+		}
+		#main_cont {
+			width: 600px;
+			margin: 0px auto;
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+		.pub {
+			margin-bottom: 10px;
+			font-size: 13px;
+			line-height: 130%;
+		}
+		</style>
+	</head>
+
+	<body>
+		<div id="main_cont">
+			<h2>Fredrik D. Johansson - PhD thesis</h2>
+			This website is a description of the PhD thesis of Fredrik Johansson,
+			the defence of which is preliminarily scheduled for the early fall of 2016.
+			The main research topic is machine learning on graph data.
+			<p>
+			Fredrik Johansson<br/>
+			Computer Science &amp; Engineering<br/>
+			Chalmers University of Technology, Sweden<br/>
+			frejohk(at)chalmers.se
+			<p>
+			<b>Supervisor:</b> Devdatt Dubhashi, dubhashi(at)chalmers.se</br>
+			<b>Co-supervisor:</b> Henk Wymeersch
+			<p>
+			<b><a href="http://www.cse.chalmers.se/~frejohk/">Website</a></b> <b><a href="http://www.cse.chalmers.se/~frejohk/files/cv.pdf">CV</a></b>
+			<hr>
+			<h2>Learning with geometric embeddings of graphs</h2>
+
+			<p>
+			Recent years have seen a dramatic increase in the collection and representation of data in the form of graphs. Examples range from social networks, made up of people and their relationships, to gene expression networks. At the same time, the need for tools to automatically sift through and analyze the data has grown rapidly. Machine learning offers tools of exactly this kind, and many labor-intensive tasks such as labelling or categorizing graph data can now be alleviated, if not solved, using machine learning methods. Problems of this nature arise in diverse fields, ranging from chemoinformatics and bioinformatics to social sciences, where graphs are well suited to represent the data. For example, in drug development, some candidate compounds will be harmful to humans while some will not (Debnath et al. 1991). Predicting which of the compounds are harmless based on molecular structure, rather than through in-vitro or in-vivo studies, can represent large savings. Another area rich in graph data is social network analysis (Wasserman and Faust 1994), where knowing communities or key influencers are important to for example marketing firms who can target their campaigns towards groups of people, or influential individuals.
+			<p>
+			A key issue when applying any machine learning method is representation of data. In order to truly harness the power of such methods when dealing with graphs, the graphs must be represented in a way that is efficient and informative to the algorithm in question (Vishwanathan, 2010). Most algorithms for important learning problems such as classification, clustering and dimensionality reduction, are designed for data represented by vectors of real values. Graphs, however, are combinatorial in nature, often represented as nodes and edges, and do not fit into this paradigm. Overcoming this discrepancy is an important challenge in machine learning. This thesis addresses the issue of representing graphs in ways that make them accessible to general purpose machine learning algorithms. Several so-called geometric embeddings are introduced and combined with both existing and new learning algorithms to form competitive methods for tasks like classification and clustering of graphs. Each method is motivated through both theoeretical and empirical results, several of which represent the state-of-the-art.
+			<p>
+			This thesis is an extended summary of several already published papers. In Paper [1], we generalized a geometric embedding of graphs, famous in information theory, to be applicable to graphs with weights on nodes and edges. In Paper [4] we used the original embedding to define graph kernels, designed to capture global properties of graphs. In Paper [3] we developed these ideas into a general framework for classifying graphs using matchings of geometric embeddings of graphs. Paper [2] explores the topic of learning with graphs under differential privacy, and Paper [5] applies graph kernels to the problem of relational entity disambiguation.
+
+			<!--<h2>References</h2>
+			<div class="pub">
+				Debnath, A. K. et al. (1991). <i>Structureactivity relationship of mutagenic aromatic and heteroaromatic nitro compounds.</i> Correlation with molecular orbital energies and hydrophobicity. Journal of Medicinal Chemistry 34 (2), 786–797.
+			</div>
+			<div class="pub">
+				Vishwanathan, S. V. N., Schraudolph, N. N., Kondor, R., &amp; Borgwardt, K. M. (2010). <i>Graph kernels</i>. The Journal of Machine Learning Research, 11, 1201-1242.
+			</div>
+			<div class="pub">
+				Wasserman, S. and K. Faust (1994). <i>Social network analysis: Methods and applications</i>. Cambridge Univ Pr.
+			</div>-->
+
+			<h2>Contributions to publications included in the thesis</h2>
+			<div class="pub">
+				[1]&nbsp;&nbsp; F. D. Johansson, A. Chattoraj, C. Bhattacharyya, and D. Dubhashi (2015). <i>Weighted Theta Functions and Embeddings with Applications to Max-Cut, Clustering and Summarization</i>. Advances in
+				Neural Information Processing Systems, pp. 1018–1026
+				<p>&nbsp;&nbsp;&nbsp;Main author. Performed most experiments. Core idea developed together with D. Dubhashi</p>
+			</div>
+			<div class="pub">
+				[2]&nbsp;&nbsp; F. D. Johansson, O. Frost, C. Retzner, and D. Dubhashi (2015). <i>Classifying Large Graphs with Differential Privacy</i>. Modeling Decisions for Artificial Intelligence. Springer, pp. 3–17
+				<p>&nbsp;&nbsp;&nbsp;Main author. Developed the core idea.</p>
+			</div>
+			<div class="pub">
+				[3]&nbsp;&nbsp; F. D. Johansson and D. Dubhashi (2015). <i>Learning with Similarity Functions on Graphs using Matchings of Geometric Embeddings</i>. Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, pp. 467–476
+				<p>&nbsp;&nbsp;&nbsp;Main author. Performed all experiments. Core idea developed together with D. Dubhashi</p>
+			</div>
+			<div class="pub">
+				[4]&nbsp;&nbsp; F. D. Johansson, V. Jethava, D. Dubhashi, and C. Bhattacharyya (2014). <i>Global graph kernels using geometric embeddings</i>. Proceedings of the 31st International Conference on Machine Learning (ICML). ed. by T. Jebara and E. P. Xing. JMLR Workshop and
+				Conference Proceedings, pp. 694–702
+				<p>&nbsp;&nbsp;&nbsp;Main author. Performed all experiments. Core idea developed together with D. Dubhashi</p>
+			</div>
+			<div class="pub">
+				[5]&nbsp;&nbsp; L. Hermansson, T. Kerola, F. Johansson, V. Jethava, and D. Dubhashi (2013). <i>Entity disambiguation in anonymized graphs using graph kernels</i>. Proceedings of the International Conference on Information and Knowledge Management (CIKM). ACM, pp. 1037–1046
+				<p>&nbsp;&nbsp;&nbsp;Main author. Core idea developed together with V. Jethava.</p>
+			</div>
+
+			<h2>Publications not included in the thesis</h2>
+			<div class="pub">
+				[6]&nbsp;&nbsp; F. D. Johansson, U. Shalit, D. Sontag (2016). <i>Learning Representations for Counterfactual Inference</i>. International Conference on Machine Learning (ICML) 2016 (To appear)
+			</div>
+			<div class="pub">
+				[7]&nbsp;&nbsp; F. Johansson, V. Jethava, and D. Dubhashi (2013). <i>DLOREAN: Dynamic LOcation-aware REconstruction of multiwAy Networks</i>. Data Mining Workshops (ICDMW), 2013 IEEE 13th International
+				Conference on. IEEE, pp. 1012–1019
+			</div>
+			<div class="pub">
+				[8]&nbsp;&nbsp; F. Johansson, T. F&auml;rdig, V. Jethava, and S. Marinov (2012). <i>Intent- aware temporal query modeling for keyword suggestion.</i> PIKM. ed. by A. S. Varde and F. M. Suchanek. ACM, pp. 83–86
+			</div>
+			<div class="pub">
+				[9]&nbsp;&nbsp; L. Hermansson, F. D. Johansson, and O. Watanabe (2015). <i>Generalized Shortest Path Kernel on Graphs</i>. Discovery Science. Springer International Publishing, pp. 78–85
+			</div>
+			<div class="pub">
+				[10]&nbsp;&nbsp; N. Tahmasebi et al. (2015). <i>Visions and open challenges for a knowledge-based culturomics</i>. International Journal on Digital Libraries 15.2-4, 169–187
+			</div>
+			<div class="pub">
+				[11]&nbsp;&nbsp; M. K&aring;ageb&auml;ck, F. Johansson, R. Johansson, and D. Dubhashi (2015). <i>Neural context embeddings for automatic discovery of word senses</i>. Proceedings of NAACL-HLT, 25–32
+			</div>
+		</div>
+	</body>
+</html>
