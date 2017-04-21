@@ -32,9 +32,13 @@ a  {
 
 #title-name {
 	font-size: 280%;
-	margin-bottom: 15px;
-	margin-top: 50px;
+	margin-bottom: 25px;
+	margin-top: 10px;
 	color: #0f3b74;
+}
+
+#title-description {
+	margin-top: 10px;
 }
 
 li {
@@ -55,12 +59,13 @@ li {
 }
 
 #photo img {
-	width: 100px;
-	height: 130px;
+	width: 120px;
+	height: 160px;
 	margin-right: 10px;
 }
 
 #title {
-	height: 130px;
+	height: 140px;
 	padding: 10px;
+	float: clear;
 }
