@@ -8,18 +8,16 @@
 		}
 		.imgh, .imgv {
 			border: none
-		}
-		.imgh {
-				width: 480px;
-				height: 320px;
-		}
-		.imgv {
-				width: 480px;
-				height: 640px;
+			display: block;
+		  max-width: 100%;
+			max-height: 1067px;
+		  width: auto;
+		  height: auto;
 		}
 		.container {
 			margin: 0px auto;
-			width: 480px;
+			max-width: 800px;
+			width: 100%;
 		}
 		.img_label {
 			width: 100%;
@@ -31,6 +29,11 @@
 			box-sizing: border-box;
 		  -moz-box-sizing: border-box;
 		  -webkit-box-sizing: border-box;
+		}
+		@media only screen and (max-height: 800px) {
+		    .container {
+						max-width: 600px;
+		    }
 		}
 	</style>
 </head>
