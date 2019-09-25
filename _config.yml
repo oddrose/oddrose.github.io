@@ -1,0 +1,10 @@
+title: "Fredrik D. Johansson"
+url: www.fredjo.com
+description: "Machine learning researcher Fredrik Johansson"
+
+twitter:
+  username: frejohk
+  card: summary
+
+plugins:
+  - jekyll-seo-tag
