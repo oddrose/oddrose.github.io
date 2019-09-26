@@ -59,9 +59,10 @@ li {
 }
 
 #photo img {
-	width: 120px;
+	width: 125px;
 	height: 160px;
 	margin-right: 10px;
+	border: #999 1px solid;
 }
 
 #title {
