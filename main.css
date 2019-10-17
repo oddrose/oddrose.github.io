@@ -5,7 +5,7 @@ body {
 	font-family: 'Fira Sans', 'Montserrat', Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #f2f2f2; /*0c223e*/
 	color: #0c223e;
-	line-height: 120%;
+	line-height: 1.2em;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	font-size: 14pt;
@@ -15,6 +15,7 @@ h1 {
 	color: #0f3b74;
 	font-weight: normal;
 	font-size: 32pt;
+	line-height: 1.0em;
 }
 h2, h3 {
 	color: #f6861f;
@@ -65,13 +66,15 @@ li {
 
 #photo img {
 	width: 125px;
-	height: 160px;
 	margin-right: 10px;
 	border: #999 1px solid;
 }
 
 #title {
-	height: 140px;
 	padding: 10px;
 	float: clear;
+}
+
+#body {
+	margin-top: 40px;
 }
