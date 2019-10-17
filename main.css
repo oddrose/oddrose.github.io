@@ -11,7 +11,12 @@ body {
 	font-size: 14pt;
 }
 
-h1, h2, h3 {
+h1 {
+	color: #0f3b74;
+	font-weight: normal;
+	font-size: 32pt;
+}
+h2, h3 {
 	color: #f6861f;
 	font-weight: normal;
 }
